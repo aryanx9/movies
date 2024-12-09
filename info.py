@@ -18,7 +18,7 @@ API_HASH = environ.get('API_HASH', 'ab18f905cb5f4a75d41bb48d20acfa50')
 BOT_TOKEN = environ.get('BOT_TOKEN', '7763965916:AAGoAOoC8M90BF0KYChRTSNfle0FqsHSeWY')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1002179311834').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5665677555').split()]
 USERNAME = environ.get('USERNAME', "https://t.me/its_me_aryan1") # ADMIN USERNAME
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002482842018'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/https:/Best_minining_airdrop')
